@@ -1,0 +1,28 @@
+.top__left {
+  padding: 18px 20px 10px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.top__left > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.top__left > p {
+  display: block;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  background-color: #202020;
+}
+
+.top__left > h2 {
+  margin-top: -18px;
+  font-size: 40px;
+  color: white;
+}

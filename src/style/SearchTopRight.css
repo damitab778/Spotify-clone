@@ -1,0 +1,49 @@
+.top__right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-left: 25px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.top__right__left {
+  display: flex;
+  align-items: center;
+}
+
+.top__right__left > img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: 5px 5px 5px 10px;
+}
+
+.top__right__left > p {
+  margin: 0px 0px 0px 30px;
+  color: rgb(255, 255, 255);
+  font-size: 20;
+}
+
+.time {
+  font-size: 20;
+  margin-right: 20px;
+}
+
+.top__right:hover {
+  background-color: black;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+p:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .top__right {
+    margin-left: 0px;
+  }
+}

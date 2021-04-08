@@ -1,0 +1,44 @@
+.albums {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  width: 10%;
+  padding: 10px;
+  margin: 0 3.3% 0 3.3%;
+  overflow: hidden;
+}
+
+.albums > p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.albums > p {
+  animation: slide-right 3.5s infinite linear;
+  transform: translateX(-100%);
+}
+
+.albums > img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.albums:hover {
+  cursor: pointer;
+}
+
+@keyframes slide-right {
+  to {
+    transform: translateX(110%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .albums {
+    flex-direction: row;
+  }
+}

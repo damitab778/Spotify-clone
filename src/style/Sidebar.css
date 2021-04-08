@@ -1,0 +1,21 @@
+.sidebar {
+  height: 100vh;
+  min-width: 230px;
+  flex: 0.2;
+  background-color: #17191b;
+  padding: 20px;
+}
+
+.sidebar__logo {
+  width: 180px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+h5 {
+  color: lightgray;
+  text-transform: uppercase;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}

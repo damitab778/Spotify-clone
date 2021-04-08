@@ -1,0 +1,19 @@
+.header__container {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 5px 15px 5px 5px;
+  background-color: #181818;
+  color: white;
+  border-radius: 30px;
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
